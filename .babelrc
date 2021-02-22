@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current",
+        "ios": "11.0",
+        "chrome": "56"
+      },
+      "module": false
+    }]
+  ],
+  "plugins": [
+    "syntax-dynamic-import"
+  ]
+}

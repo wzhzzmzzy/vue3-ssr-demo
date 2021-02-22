@@ -1,0 +1,33 @@
+{
+  "name": "vue-hackernews-3.0",
+  "version": "1.0.0",
+  "description": "A Vue3 SSR Demo",
+  "author": "Amber Wang <wzhzzmzzy@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "serialize-javascript": "^5.0.1",
+    "serve-favicon": "^2.5.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/server-renderer": "^3.0.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "vue-bundle-renderer": "^0.2.3",
+    "vue-loader": "^16.1.2",
+    "webpack": "^5.23.0",
+    "webpack-merge": "^5.7.3"
+  }
+}
